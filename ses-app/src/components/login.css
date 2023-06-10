@@ -1,0 +1,34 @@
+.Login {
+    /* fallback for old browsers */
+    background: #312158;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #2c1268, #d8363a, #dd3675, #b44593);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #341e96, #d8363a, #dd3675, #b44593);
+  }
+  
+  .ses-text {
+    font-size: xxx-large;/* Adjust the size to your preference */
+    font-weight: bold;
+    color: hsl(239, 97%, 49%); /* Change the color to your preference */
+    /* Add any other custom styles you want */
+  }
+  
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
+  body {
+    background-color: #615ca8;
+  }
+  
